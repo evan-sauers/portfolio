@@ -1,0 +1,305 @@
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    background-color: #84AEC7 ;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*
+Colors:
+#feeb97 - Yellow Cream
+#4fb783 - Turquoise
+#07a9ee - Lighter Blue
+#0573a2 - Dark Blue
+
+#84AEC7 - Blue
+#EEECED - White
+#FFD000 - Yellow
+#ED021F - Red
+#FF5B00 - Orange
+
+
+*/
+
+h1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 125px;
+    font-weight: 1000;
+    letter-spacing: -5px;
+    line-height: 20%;
+    color: #ffffff;
+    text-shadow: 4px 4px #ED021F;
+
+}
+
+h1:hover {
+    /*position:relative;
+    top: -3px; 
+    left: -3px;
+    text-shadow: 6px 6px #ED021F;*/
+}
+
+h2 {
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    float: right;
+    margin: 5% 10% 0% 0%;
+    color: #ffffff;
+    text-shadow: 4px 4px #ED021F;
+    
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #84AEC7;
+    margin: 40px 0px -10px 0px;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+#light {
+    color: #FFD000;
+}
+
+nav {
+    margin-left: -30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+a:hover {
+    color: #FFD000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+#fold {
+    margin: 25% 10% 5% 10%;
+}
+
+#about {
+    background-color: #FFD000;
+    height: 1000px;
+}
+
+#profile {
+    width: 75vh;
+    height: 75vh;
+    margin: 5% 0% 0% 10%;
+}
+
+#aboutText {
+    margin: 0% 10% 0% 5%;
+}
+
+
+#skills {
+    background-image: url("../images/desk.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 1000px;
+}
+
+.large-container {
+    width: 80%;
+    height: 200px;
+    margin-top: 15%;
+    margin-left: 140px;
+    display: flex;
+}
+
+.container{
+    text-align: center;
+    background-color: #FFFFFF;
+    float: left;
+    width: 46.5%;
+    height: 275%;
+    border-radius: 8px;
+    margin-left: 25px;
+}
+
+.container p {
+    padding: 0px 50px 0px 50px;   
+}
+
+
+#collapse {
+    margin-top: 15%;
+    display: flex;
+}
+
+#list a {
+    font-size: 24px;
+    display: flex;
+    color: #FFD000;
+    list-style-type: none;
+    margin: 20px 0px 0px 150px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+}
+
+#list a:hover {
+    background-color: #84AEC7;
+}
+
+#content {
+    display: flex;
+    background-color: #84AEC7;
+    margin: 20px 0px 0px 20px;
+    padding: 50px;
+    width: 50%;
+}
+
+#content div {
+    display: none;
+}
+
+
+
+/*  ---------------------------  */
+
+
+
+#header{
+ position: absolute;
+  top: 200%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.parallax{
+    background-attachment: scroll;
+}
+
+.text-box{
+	height: 600px;
+	padding: 50px;
+}
+
+
+
+/*  ---------------------------  */
+
+
+
+
+
+#work {
+    height: 1500px;
+}
+
+#folio {
+    max-width: 75%;
+    margin-left: 10%;
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.box img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#contact {
+    background-color: #FFD000;
+    height: 500px;
+}
+
+.fa {
+    color: #ffffff;
+}
+
+
+.fa:hover {
+    color: #84AEC7;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-container a {
+    margin-top: 5%;
+}
+
+#resume {
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
