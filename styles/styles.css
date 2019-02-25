@@ -32,7 +32,7 @@ h1 {
     letter-spacing: -5px;
     line-height: 20%;
     color: #ffffff;
-    text-shadow: 4px 4px #ED021F;
+    text-shadow: 4px 4px #d1021b;
 
 }
 
@@ -50,7 +50,7 @@ h2 {
     float: right;
     margin: 5% 10% 0% 0%;
     color: #ffffff;
-    text-shadow: 4px 4px #ED021F;
+    text-shadow: 4px 4px #d1021b;
     
 }
 
@@ -156,6 +156,21 @@ ul {
     padding: 0px 50px 0px 50px;   
 }
 
+.box img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    transition: filter 0.5s ease;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.box :hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
 
 #collapse {
     margin-top: 15%;
@@ -232,13 +247,6 @@ ul {
     -webkit-column-gap: 1rem;
     -moz-column-gap: 1rem;
     column-gap: 1rem;
-}
-
-.box img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
 }
 
 #contact {
